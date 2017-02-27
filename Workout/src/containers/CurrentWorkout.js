@@ -1,4 +1,9 @@
 // THIS WAS A BEAST
+// containers folder is a place for presentational compnents
+// componets that are just like shells, has basic markup, min styling and
+// a holder for other ui components, things we route to
+// a pattern in Redux is to have all state and action in the containers and pass them
+// downto the ui components which are stateless
 import { connect } from 'react-redux';
 import React, { Component } from 'react';
 import LinearGradient from 'react-native-linear-gradient';
@@ -34,7 +39,7 @@ const mapActionsToProps = (dispatch) => ({
 });
 
 const Container extends Component {
-  static defaultprops ={
+  static defaultprops = {
     user: {},
     currentWorkout: [],
     activeTab: 0,

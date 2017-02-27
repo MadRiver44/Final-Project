@@ -1,0 +1,8 @@
+// a file to keep action.types and import them as needed
+export const CHANGE_TAB = 'CHANGE_TAB';
+export const FETCH_CURRENT_WORKOUT = 'FETCH_CURRENT_WORKOUT';
+export const FETCH_CURRENT_WORKOUT_COMPLETE = 'FETCH_CURRENT_WORKOUT_COMPLETE';
+export const SET_EXERCISE_VISIBILITY = 'SET_EXERCISE_VISIBILITY';
+export const ADD_EXERISE = 'ADD_EXERISE';
+export const ADD_EXERISE_COMPLETE = 'ADD_EXERISE_COMPLETE';
+
