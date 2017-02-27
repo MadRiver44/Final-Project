@@ -35,6 +35,48 @@ export const Welcome = () => (
         </View>
       </LinearGradient>
   </View>
+  );
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center'
+    },
+  titleContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 0.2
+  },
+  title: {
+    fontSize: 48,
+    fontWeight: '500',
+    color: '#F3F3F3',
+    textAlign: 'center'
+  },
+  lastWorkoutContainer: {
+    flex: 0.3
+  },
+  lastWorkoutTitle: {
+    fontSize: 30,
+    fontWeight: '100',
+    color: '#F3F3F3'
+  },
+  button: {
+    borderColor: '#EADCDC',
+    padding: 10,
+    borderRadius: 10
+  },
+  buttonText: {
+    color: '#EADCDC'
+  }
+
+})
 
 
-  )
+
+
+
+
+
+
+
