@@ -7,7 +7,7 @@ import {
   StyleSheet
 } from 'react-native';
 
-export const Welcome = () => (
+export const Welcome = (props) => (
   <View style={{ flex: 1 }}>
     <LinearGradient
       colors={['#4A148C', '#880E4F']}
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     color: '#EADCDC'
   }
 
-})
+});
 
 
 
